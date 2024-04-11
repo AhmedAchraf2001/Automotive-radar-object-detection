@@ -20,49 +20,33 @@ Radars outperform other methods in speed estimation while **requiring lower comp
 
 </br>
 
-•	Range-Doppler spectrum
-range-Doppler spectrum is obtained after two successive Fourier transforms on the data received by the radar.
+## Range-Doppler spectrum
+**Description :** the spectrum is obtained after two successive Fourier transforms on radar signal.
 represents the vehicle's environment based on the 
-•	Distance 
-•	Speed 
-of each target.
-
-In the figure below, 2 pedestrians are present in the radar field at 
-22m and 26m respectively and at a speed of 1 m/s and -1 m/s respectively. 
-A positive speed means the target is getting closer and a negative speed otherwise.
+  -	Distance 
+  -	Speed of each target.
 
 
+</br>
 
-•	Range-azimuth spectrum
-
-The range-azimuth spectrum is obtained after three successive Fourier transforms on the data received by the radar. 
-It allows a representation of the vehicle's environment based on the 
-•	Distance
-•	Angle of arrival
-of each target. 
-In the figure below (same sequence as previously), 2 pedestrians are present in the radar field at 22m and 26m respectively and at angles of 17° and -5° relative to the radar respectively.
-
-•	Estimation of distance, speed, and angle from spectra
-
-Based on the distance, speed, and angle resolution of the radar
-It is possible to estimate these parameters for a given target directly on the spectrum. 
-By a bounding box these parameters could be estimated:
-	Extract the position (x, y) of the maximum value in a bounding box 
-o	x = range
-o	y = speed or angle
-
-Let Rres, Dres, and Ares respectively be the resolution in distance, speed, and angle. 
-1px = Rres, Dres or Ares.
-
-SO:
-Distance = Rres*x
-Velocity = (64/2-y) * Dre           (on the range-Doppler spectrum of size 256x64)
-Angle = (256/2-y) * Ares            (on the range-Azimuth spectrum of size 256x256)
+## Range-azimuth spectrum
+**Description :** the spectrum is obtained after three successive Fourier transforms on radar signal.
+represents the vehicle's environment based on the
+  -	Distance
+  -	Angle of arrival of each target. 
 
 
 
-## Algorithm
-**Description :** 
+## Estimation of distance, speed, and angle from spectra
+By a bounding box on spectra these parameters could be estimated:
+- **Extract the position (x, y) of bounding box**
+  -	**x = range**
+  -	**y = speed or angle**
+
+then estimate those parameter using x, y and radar resoluation, equations attached below.
+
+
+
 
 
 ## My Contribuation
