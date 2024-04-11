@@ -2,7 +2,6 @@
 Estimate speed, distance and angle of objects Based on Range Doppler spectrum and Range azimuth spectrum which obtained after Fourier transformation of radar signal.
 
 </br>
-</br>
 
 ### ADAS - Advanced Driver Assistance Systems to obtain information from the environment. These systems are based on 
 1.	Camera
@@ -35,7 +34,7 @@ represents the vehicle's environment based on the
   -	Distance
   -	Angle of arrival of each target. 
 
-
+</br>
 
 ## Estimation of distance, speed, and angle from spectra
 By a bounding box on spectra these parameters could be estimated:
@@ -48,9 +47,8 @@ then estimate those parameter using x, y and radar resoluation, equations attach
 
 
 
-
 ## My Contribuation
-
+RNN-CNN Archeticheture has implemented to track the object on radar to specify many parameter like object is moving towards or away from car and detect object on spectra easily wheter it diffcult to specify where is the object using only on frame so i will implement rnn cnn model like human activity recognation.
 
 
 </br>
