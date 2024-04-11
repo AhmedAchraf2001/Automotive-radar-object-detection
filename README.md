@@ -12,13 +12,10 @@ Estimate speed, distance and angle of objects Based on Range Doppler spectrum an
 
 
 ### Why radar compared to cameras and lidars?
-1.	The radar provides complementary information to the lidar and the camera.
-2.	A radar can detect objects **regardless of weather and light conditions** (night, fog, snow, etc.), 
-3.	Automobile radars display very good performance in accurately measuring:
-    -	**Distance** 
-    -	**Speed** 
-    -	**Angle of arrival of surrounding objects**. 
-4.	Radars achieve better performance for speed estimation but at **a much lower computational (and monetary) cost**.
+The radar offers additional insights alongside the lidar and camera. 
+**Radar operates effectively in various weather and lighting conditions**, such as darkness, fog, or snow.
+Radars are precisely measuring **distance, speed, and the arrival angle** of surrounding objects. 
+Radars outperform other methods in speed estimation while **requiring lower computational and memory cost.**
 
 
 </br>
