@@ -30,10 +30,10 @@ Radars outperform other methods in speed estimation while **requiring lower comp
 
 </br>
 
-|     	        |Range-Doppler Spectrum      |Range-azimuth spectrum       |
-|------------------------|---------------------------- |-----------------------------|
-|Obtain Spectra from radar signal After |**Two successive Fourier transforms**|**Three successive Fourier transforms**|
-|vehicle's environment| is represented based on:</br> -	**Distance**  </br> -	**Speed of each target** | is represented based on:</br> - **Distance**  </br> - **Angle of arrival**  |
+|     	                  |Range-Doppler Spectrum      |Range-azimuth spectrum       |
+|---------------------------------------|-------------------------------------------------|---------------------------------------------------------|
+|Obtain Spectra from radar signal After |**Two successive Fourier transforms** </br> *First image|**Three successive Fourier transforms** </br>  *Second image|
+|vehicle's environment                  | is represented based on:</br> -	**Distance**  </br> -	**Speed of each target** | is represented based on:</br> - **Distance**  </br> - **Angle of arrival**  |
 
 
 
@@ -52,10 +52,12 @@ then estimate those parameter using x, y and radar resoluation, equations attach
 </br>
 
 ## Progress
-### [2024-04-24] Update model archetic. use pytorch improve accuracy to 100% on validation set, Check [Source/training metrics.json](https://github.com/AhmedAchraf2001/Automotive-radar-object-detection/blob/main/Source/training%20metrics.json).
-### [2024-04-15] Download tiny portion of data, preprocessing and building model 
-### [2024-04-06] search about more resources about how data collected and built, read papers attached [here]()
-### [2024-04-02] Plan to project, find data 
+### [2024-04-24] Update model archietecture, Use pytorch for more flexibilty while dealing with `.npy`, `.pickle` and 'stereo image' files, 100% acc reached on validation set, Check [Source/training metrics.json](https://github.com/AhmedAchraf2001/Automotive-radar-object-detection/blob/main/Source/training%20metrics.json).
+### [2024-04-15] Download a small portion of data, apply preprocessing, and build a primary model to experiment the data.
+### [2024-04-06] Find more resources about data description and how data is collected and constructed, read the attached papers [Docs/papers](https://github.com/AhmedAchraf2001/Automotive-radar-object-detection/tree/main/Docs/papers)
+### [2024-04-02] Project planning, defining requirements and priorities, and specifying the form of outputs.
+
+
 
 </br>
 
