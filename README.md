@@ -1,10 +1,10 @@
 # Automotive-radar-object-detection
 Estimate speed, distance and angle of objects Based on Range Doppler spectrum and Range azimuth spectrum which obtained after Fourier transformation of radar signal.
+
 </br>
 
 > [!NOTE]  
-> Full implementation is kept private, But you can look up at data preprocessing, visualization and model preformance attached in [Source/automotive-radar-object-detection.ipynb](https://github.com/AhmedAchraf2001/Automotive-radar-object-detection/blob/main/Source/automotive-radar-object-detection.ipynb) file.
-
+> Full implementation is kept private, but you get access to data preprocessing, visualization, and performance of primary models
 
  
 </br>
