@@ -75,9 +75,9 @@ RNN-CNN Archeticheture has implemented to track the object on radar to specify m
 </br>
 
 ## TO DO
-[x] Use detectron2 to build various models.
-[] Implement 3D object detector on Range-Doppler-Angle Tensor.
-[] Study this [article](https://www.plextek.com/a-programmers-introduction-to-processing-imaging-radar-data/) well, to implement object detector on cartesian space.
+- [x] Use detectron2 to build various models.
+- [] Implement 3D object detector on Range-Doppler-Angle Tensor.
+- [] Study this [article](https://www.plextek.com/a-programmers-introduction-to-processing-imaging-radar-data/) well, to implement object detector on cartesian space.
 
 ## References
 Ao Zhang1, Farzan Erlik Nowruzi1, Robert Laganiere, 'RADDet: Range-Azimuth-Doppler based Radar Object Detection for Dynamic Road Users' vol. 39, no. 10, 2020. 
