@@ -66,18 +66,20 @@ then estimate those parameter using x, y and radar resoluation, equations attach
 ### [2024-04-02] Plan to project, find data 
 
 </br>
-</br>
+
 
 ## My Contribuation
 RNN-CNN Archeticheture has implemented to track the object on radar to specify many parameter like object is moving towards or away from car and detect object on spectra easily wheter it diffcult to specify where is the object using only on frame so i will implement rnn cnn model like human activity recognation.
 
 </br>
-</br>
+
 
 ## TO DO
 - [x] Use detectron2 to build various models.
 - [ ] Implement 3D object detector on Range-Doppler-Angle Tensor.
 - [ ] Study this [article](https://www.plextek.com/a-programmers-introduction-to-processing-imaging-radar-data/) well, to implement object detector on cartesian space.
+
+</br>
 
 ## References
 Ao Zhang1, Farzan Erlik Nowruzi1, Robert Laganiere, 'RADDet: Range-Azimuth-Doppler based Radar Object Detection for Dynamic Road Users' vol. 39, no. 10, 2020. 
