@@ -3,15 +3,12 @@ Estimate speed, distance and angle of objects Based on Range Doppler spectrum an
 </br>
 
 > [!NOTE]  
-> Full implementation is kept private.
+> Full implementation is kept private, But you can look up at data preprocessing, visualization and model preformance attached in [Source/automotive-radar-object-detection.ipynb](https://github.com/AhmedAchraf2001/Automotive-radar-object-detection/blob/main/Source/automotive-radar-object-detection.ipynb) file.
 
 
 
 ### ADAS - Advanced Driver Assistance Systems to obtain information from the environment. These systems are based on 
-1.	Camera
-2.	Lidar
-3.	Radar
-4.	Ultrasound
+1.	Camera 2.	Lidar 3.	Radar 4.	Ultrasound
  
 
 ### Why radar compared to cameras and lidars?
@@ -50,7 +47,7 @@ then estimate those parameter using x, y and radar resoluation, equations attach
 
 
 ## Progress
-### [2024-04-24] Update model archetic. use pytorch improve accuracy to 100% on validation
+### [2024-04-24] Update model archetic. use pytorch improve accuracy to 100% on validation set, Check [Source/training metrics.json](https://github.com/AhmedAchraf2001/Automotive-radar-object-detection/blob/main/Source/training%20metrics.json) file
 ### [2024-04-15] Download tiny portion of data, preprocessing and building model 
 ### [2024-04-06] search about more resources about how data collected and built, read papers attached [here]()
 ### [2024-04-02] Plan to project, find data 
