@@ -6,10 +6,8 @@ Estimate speed, distance and angle of objects Based on Range Doppler spectrum an
 > Full implementation is kept private, But you can look up at data preprocessing, visualization and model preformance attached in [Source/automotive-radar-object-detection.ipynb](https://github.com/AhmedAchraf2001/Automotive-radar-object-detection/blob/main/Source/automotive-radar-object-detection.ipynb) file.
 
 
-
-### ADAS - Advanced Driver Assistance Systems to obtain information from the environment. These systems are based on 
-1.	Camera 2.	Lidar 3.	Radar 4.	Ultrasound
  
+</br>
 
 ### Why radar compared to cameras and lidars?
 The radar offers additional insights alongside the lidar and camera. 
@@ -20,7 +18,7 @@ Radars outperform other methods in speed estimation while **requiring lower comp
 
 </br>
 
-
+## 
 
 <img align="center" alt="example" src="Docs/images/httpsgithub.comZhangAoCanadaRADDetblobmainimagestestset_samples.png.png">
 
@@ -30,18 +28,12 @@ Radars outperform other methods in speed estimation while **requiring lower comp
 
 </h6>
 
-### Range-Doppler spectrum in first image
-**Description :** the spectrum is obtained after two successive Fourier transforms on radar signal.
-represents the vehicle's environment based on the 
-  -	Distance 
-  -	Speed of each target.</br>
+</br>
 
-
-### Range-azimuth spectrum in second image
-**Description :** the spectrum is obtained after three successive Fourier transforms on radar signal.
-represents the vehicle's environment based on the
-  -	Distance
-  -	Angle of arrival of each target.</br>
+|     	        |Range-Doppler Spectrum      |Range-azimuth spectrum       |
+|------------------------|---------------------------- |-----------------------------|
+|Obtain Spectra from radar signal After |**Two successive Fourier transforms**|**Three successive Fourier transforms**|
+|vehicle's environment| is represented based on:</br> -	**Distance**  </br> -	**Speed of each target** | is represented based on:</br> - **Distance**  </br> - **Angle of arrival**  |
 
 
 
