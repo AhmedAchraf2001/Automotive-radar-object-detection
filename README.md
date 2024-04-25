@@ -52,10 +52,10 @@ then estimate those parameter using x, y and radar resoluation, equations attach
 </br>
 
 ## Progress
-### [2024-04-24] Update model archietecture, Use pytorch for more flexibilty while dealing with `.npy`, `.pickle` and 'stereo image' files, 100% acc reached on validation set, Check [Source/training metrics.json](https://github.com/AhmedAchraf2001/Automotive-radar-object-detection/blob/main/Source/training%20metrics.json).
-### [2024-04-15] Download a small portion of data, apply preprocessing, and build a primary model to experiment the data.
-### [2024-04-06] Find more resources about data description and how data is collected and constructed, read the attached papers [Docs/papers](https://github.com/AhmedAchraf2001/Automotive-radar-object-detection/tree/main/Docs/papers)
-### [2024-04-02] Project planning, defining requirements and priorities, and specifying the form of outputs.
+**[2024-04-24]** Update model archietecture, Use pytorch for more flexibilty while dealing with `.npy`, `.pickle` and `stereo image` files, 100% acc reached on validation set, Check [Source/training metrics.json](https://github.com/AhmedAchraf2001/Automotive-radar-object-detection/blob/main/Source/training%20metrics.json).</br>
+**[2024-04-15]** Download a small portion of data, apply preprocessing, and build a primary model to experiment the data.</br>
+**[2024-04-06]** Find more resources about data description and how data is collected and constructed, read the attached papers [Docs/Papers](https://github.com/AhmedAchraf2001/Automotive-radar-object-detection/tree/main/Docs/papers)</br>
+**[2024-04-02]** Project planning, defining requirements and priorities, and specifying the form of outputs.
 
 
 
