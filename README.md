@@ -20,17 +20,30 @@ Radars outperform other methods in speed estimation while **requiring lower comp
 
 </br>
 
-### Range-Doppler spectrum
+
+
+<img align="center" alt="example" src="Docs/images/httpsgithub.comZhangAoCanadaRADDetblobmainimagestestset_samples.png.png">
+
+<h6 align="center"> 
+ 
+ [image](https://github.com/ZhangAoCanada/RADDet/blob/main/images/testset_samples.png) 
+
+</h6>
+
+### Range-Doppler spectrum in first image
 **Description :** the spectrum is obtained after two successive Fourier transforms on radar signal.
 represents the vehicle's environment based on the 
   -	Distance 
-  -	Speed of each target.
+  -	Speed of each target.</br>
 
-### Range-azimuth spectrum
+
+### Range-azimuth spectrum in second image
 **Description :** the spectrum is obtained after three successive Fourier transforms on radar signal.
 represents the vehicle's environment based on the
   -	Distance
-  -	Angle of arrival of each target. 
+  -	Angle of arrival of each target.</br>
+
+
 
 </br>
 
@@ -43,18 +56,22 @@ By a bounding box on spectra these parameters could be estimated:
 then estimate those parameter using x, y and radar resoluation, equations attached below.
 
 
-
-
+</br>
+</br>
 
 ## Progress
-### [2024-04-24] Update model archetic. use pytorch improve accuracy to 100% on validation set, Check [Source/training metrics.json](https://github.com/AhmedAchraf2001/Automotive-radar-object-detection/blob/main/Source/training%20metrics.json) file
+### [2024-04-24] Update model archetic. use pytorch improve accuracy to 100% on validation set, Check [Source/training metrics.json](https://github.com/AhmedAchraf2001/Automotive-radar-object-detection/blob/main/Source/training%20metrics.json).
 ### [2024-04-15] Download tiny portion of data, preprocessing and building model 
 ### [2024-04-06] search about more resources about how data collected and built, read papers attached [here]()
 ### [2024-04-02] Plan to project, find data 
 
+</br>
+</br>
 
 ## My Contribuation
 RNN-CNN Archeticheture has implemented to track the object on radar to specify many parameter like object is moving towards or away from car and detect object on spectra easily wheter it diffcult to specify where is the object using only on frame so i will implement rnn cnn model like human activity recognation.
+
+</br>
 </br>
 
 ## References
